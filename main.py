@@ -3,7 +3,7 @@ import openpyxl
 
 book = openpyxl.load_workbook("Price.xlsx", read_only=True)
 sheet = book.active
-
+print('boo')
 print("We Work")
 print("Hello")
 
