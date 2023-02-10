@@ -4,6 +4,7 @@ import openpyxl
 book = openpyxl.load_workbook("Price.xlsx", read_only=True)
 sheet = book.active
 
+print("We Work")
 
 root = minidom.Document()
 xml = root.createElement('ARTICLES')
